@@ -41,7 +41,8 @@ The scheduler:
 g++ -std=c++11 -o scheduler smart_scheduler.cpp
 ./scheduler
 ---
----
+```bash
+
 ## Expand Ideas
 - 🔁 Integrate hardware timers or ISRs
 
@@ -59,5 +60,5 @@ g++ -std=c++11 -o scheduler smart_scheduler.cpp
 - Arduino Uno (using millis())
 
 - ESP32 (ESP-IDF esp_timer_get_time())
----
+
 
