@@ -57,7 +57,7 @@ The scheduler:
 ```bash
 g++ -std=c++11 -o scheduler smart_scheduler.cpp
 ./scheduler
----
+
 
 
 
