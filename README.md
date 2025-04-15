@@ -33,9 +33,7 @@ The scheduler:
 
 ---
 
-##  Example Output (Simulated on PC)
 
----
 
 ## 🛠 How to Use (on PC)
 
@@ -43,3 +41,22 @@ The scheduler:
 g++ -std=c++11 -o scheduler smart_scheduler.cpp
 ./scheduler
 ---
+## Expand Ideas
+- 🔁 Integrate hardware timers or ISRs
+
+- ⏳ Add priority levels and event queues
+
+- 🧭 Add watchdog timer support
+
+- 🌙 Support deep sleep with RTC wake-up (e.g., HAL_PWR_EnterSTOPMode() or esp_deep_sleep())
+
+## Tested On
+- PC (Linux, Windows using g++)
+
+- STM32F4xx (with HAL_GetTick + __WFI)
+
+- Arduino Uno (using millis())
+
+- ESP32 (ESP-IDF esp_timer_get_time())
+
+
